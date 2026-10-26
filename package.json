@@ -1,0 +1,25 @@
+{
+  "name": "strong-think-agency-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strong Think Web Designers \u2014 agency website, admin workspace, and client portal.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.0.3",
+    "express": "^4.22.3",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "multer": "^2.4.0",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.0"
+  }
+}

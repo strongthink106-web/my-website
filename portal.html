@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Client Portal — Strong Think</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/workspace.css"><script defer src="/portal.js"></script></head>
+<body class="workspace-body portal-body">
+  <div class="auth-shell" id="clientLoginShell"><a class="brand workspace-brand" href="/"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-name">STRONG<span>THINK</span><small>CLIENT PORTAL</small></span></a><div class="auth-card"><div class="auth-eyebrow">CLIENT SPACE / SECURE ACCESS</div><h1>Your work,<br><em>in progress.</em></h1><p>See what’s moving, review the next milestones, and send feedback directly to your Strong Think project team.</p><form id="clientLoginForm"><label>Email address<input type="email" name="email" autocomplete="username" required></label><label>Password<input type="password" name="password" autocomplete="current-password" required></label><button class="ws-button ws-button-primary" type="submit">Open my workspace <span>↗</span></button><p class="auth-feedback" id="clientLoginFeedback" role="status"></p></form><div class="demo-note" hidden><strong>Local client demo</strong><span data-demo-email></span><span data-demo-password></span><small>Demo project details are sample content for review purposes.</small></div></div><a class="auth-back" href="/">← Back to Strong Think</a></div>
+  <div id="clientPortal" hidden>
+    <header class="portal-header"><a class="brand" href="/"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-name">STRONG<span>THINK</span><small>CLIENT PORTAL</small></span></a><nav class="portal-nav"><a href="/#contact">Contact team ↗</a><a href="/">Public site ↗</a><button class="signout-button" id="clientLogout">Sign out ↗</button></nav></header>
+    <main class="portal-main"><div id="portalContent"><div class="loading-skeleton"></div></div></main>
+    <footer class="ws-footer"><span>NEVER GIVE UP. JUST CREATE.</span><span>YOUR PROJECT. YOUR PROGRESS. YOUR SPACE.</span></footer>
+  </div>
+  <div class="ws-toast" id="portalToast" role="status" aria-live="polite"></div>
+</body></html>
